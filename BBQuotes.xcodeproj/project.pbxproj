@@ -11,6 +11,7 @@
 		846C4F3C2B660279004AA282 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C4F3B2B660279004AA282 /* ContentView.swift */; };
 		846C4F3E2B66027D004AA282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846C4F3D2B66027D004AA282 /* Assets.xcassets */; };
 		846C4F422B66027D004AA282 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846C4F412B66027D004AA282 /* Preview Assets.xcassets */; };
+		846C4F492B660344004AA282 /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = 846C4F482B660344004AA282 /* samplecharacter.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		846C4F3D2B66027D004AA282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846C4F3F2B66027D004AA282 /* BBQuotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BBQuotes.entitlements; sourceTree = "<group>"; };
 		846C4F412B66027D004AA282 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		846C4F482B660344004AA282 /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplecharacter.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				846C4F392B660279004AA282 /* BBQuotesApp.swift */,
 				846C4F3B2B660279004AA282 /* ContentView.swift */,
+				846C4F482B660344004AA282 /* samplecharacter.json */,
 				846C4F3D2B66027D004AA282 /* Assets.xcassets */,
 				846C4F3F2B66027D004AA282 /* BBQuotes.entitlements */,
 				846C4F402B66027D004AA282 /* Preview Content */,
@@ -128,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				846C4F422B66027D004AA282 /* Preview Assets.xcassets in Resources */,
+				846C4F492B660344004AA282 /* samplecharacter.json in Resources */,
 				846C4F3E2B66027D004AA282 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
