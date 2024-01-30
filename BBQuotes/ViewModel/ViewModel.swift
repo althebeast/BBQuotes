@@ -8,7 +8,7 @@
 import Foundation
 
 @MainActor //model'e bu dosyanın her zaman en güçlü thread'de (cpu) da çalışması gerektiğini söylüyor
-class ViewModel: ObservableObject { //bunun anlamı birşey değiştiği zaman view neyin değiştiniği anlaması için ona ayak uydurması için kullanılır. {
+class ViewModel: ObservableObject { //bunun anlamı birşey değiştiği zaman view neyin değiştiniği anlaması için ona ayak uydurması için kullanılır.
     enum Status {
         case notStarted
         case fetching
