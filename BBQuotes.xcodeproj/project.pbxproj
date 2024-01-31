@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8406E0E52B69EE5C000C0C5D /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406E0E42B69EE5C000C0C5D /* CharacterView.swift */; };
 		846C4F3A2B660279004AA282 /* BBQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C4F392B660279004AA282 /* BBQuotesApp.swift */; };
 		846C4F3C2B660279004AA282 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C4F3B2B660279004AA282 /* ContentView.swift */; };
 		846C4F3E2B66027D004AA282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846C4F3D2B66027D004AA282 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8406E0E42B69EE5C000C0C5D /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 		846C4F362B660279004AA282 /* BBQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846C4F392B660279004AA282 /* BBQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBQuotesApp.swift; sourceTree = "<group>"; };
 		846C4F3B2B660279004AA282 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				846C4F3B2B660279004AA282 /* ContentView.swift */,
 				84A5D2EA2B68B3A400B201E2 /* QuoteView.swift */,
+				8406E0E42B69EE5C000C0C5D /* CharacterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				84A5D2EB2B68B3A400B201E2 /* QuoteView.swift in Sources */,
 				849B23662B684F28000EA585 /* FetchController.swift in Sources */,
 				84CB66542B661A2C0019DEDB /* Character.swift in Sources */,
+				8406E0E52B69EE5C000C0C5D /* CharacterView.swift in Sources */,
 				84A5D2DF2B68A54700B201E2 /* Constants.swift in Sources */,
 				84A5D2E92B68AA3400B201E2 /* ViewModel.swift in Sources */,
 			);
