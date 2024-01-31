@@ -13,6 +13,8 @@ struct QuoteView: View {
     
     let show: String
     
+    @State var sheetIsShowing = false
+    
     var body: some View {
         GeometryReader { geo in
             ZStack {
@@ -45,6 +47,12 @@ struct QuoteView: View {
                                     ProgressView()
                                 }
                                 .frame(width: geo.size.width/1.1, height: geo.size.height/1.8)
+                                .onTapGesture {
+                                    sheetIsShowing.toggle()
+                                }
+                                .sheet(isPresented: $sheetIsShowing) {
+                                    CharacterView(show: show, character: data.character)
+                                }
                                 
                                 
                                 Text(data.quote.character)
